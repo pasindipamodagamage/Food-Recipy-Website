@@ -1,3 +1,8 @@
+<!-- NICE TO MEET YOU!
+I’m Lindsay and I ♡ FOOD. I used to be a teacher, and now making food and writing about it online is my full-time job. I love talking with people about food, and I'm so glad you're here.
+
+Did you make a recipe? Tag @pinchofyum on Instagram so we can find you! -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -18,8 +23,7 @@
     </style> -->
   </head>
 
-  <body>
-    <!-- <body style="background-color: #fff3cd"> -->
+  <body style="background-color: #fff3cd">
     <header style="background-color: pink">
       <div>
         <!-- <table style="width: 1000px"> -->
@@ -114,6 +118,22 @@
         </table>
       </div>
     </section>
+    <!-- <hr
+      style="
+        height: 2px;
+        border-width: 0;
+        color: gray;
+        background-color: rgb(255, 0, 119);
+      "
+    />
+    <hr
+      style="
+        height: 2px;
+        border-width: 0;
+        color: gray;
+        background-color: rgb(57, 221, 226);
+      "
+    /> -->
 
     <section>
       <div>
