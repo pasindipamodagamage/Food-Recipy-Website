@@ -1,0 +1,39 @@
+footer {
+  background-color: #1a2130;
+}
+
+footer #static-prase {
+  margin-top: 20px;
+  text-align: center;
+  color: #def9c4;
+  padding-top: 2%;
+}
+
+#develpoer {
+  text-align: end;
+  color: #def9c4;
+  font-size: 9px;
+  padding: 2%;
+  position: relative;
+  top: 0.1rem;
+  right: 15rem;
+}
+
+#develpoer #develpoer-contact-details {
+  position: relative;
+  left: 8%;
+}
+
+#develpoer p {
+  position: relative;
+  top: 7px;
+  left: -180px;
+}
+
+#develpoer img {
+  position: relative;
+  top: -15px;
+  right: 47px;
+  margin-left: 10px;
+  margin-right: 10px;
+}

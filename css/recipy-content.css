@@ -1,18 +1,41 @@
-h1 {
-  font-family: Roboto Condensed;
-}
-
 #author {
   font-family: "Palanquin", sans-serif;
   font-weight: 80;
-  font-size: 15px;
+  font-size: 1rem;
+}
+
+#time {
+  font-family: "Palanquin", sans-serif;
+  font-weight: 80;
+  font-size: 1rem;
+  /* position: relative;
+  top: -29px;
+  left: 300px; */
 }
 
 #description {
-  font-family: Playpen Sans;
-  font-size: 17px;
+  font-family: "Playpen Sans";
+  font-size: 1rem;
   font-style: italic;
   color: gray;
+  /* position: relative;
+  top: -56px;
+  left: 900px; */
+}
+
+.contain {
+  display: flex;
+  justify-content: right;
+  justify-content: center;
+  justify-content: space-between;
+  margin-bottom: 4%;
+}
+
+#main-title {
+  text-decoration: underline;
+  font-family: Roboto Condensed;
+  font-size: 3rem;
+  color: #006769;
 }
 
 .introduction img {
@@ -24,8 +47,8 @@ h1 {
 
 .introduction div {
   font-family: "Palanquin", sans-serif;
-  font-weight: 30;
-  font-size: 30px;
+  font-weight: 2rem;
+  font-size: 2.2rem;
 }
 
 h2 {
@@ -33,6 +56,7 @@ h2 {
   font-family: Artifika;
   font-weight: 20px;
   font-size: 20px;
+  color: #40a578;
 }
 
 h3 {
@@ -40,6 +64,7 @@ h3 {
   font-weight: 200;
   font-size: 20px;
   font-style: normal;
+  color: #9dde8b;
 }
 
 .INGREDIENTS ul {
@@ -48,20 +73,22 @@ h3 {
   font-size: 14px;
 }
 
-.INGREDIENTS-01 img {
-  float: inline-end;
-  margin-right: 300px;
-  margin-top: 100px;
-  border: 5px solid gray;
-  border-radius: 360px;
-  box-shadow: 2px 2px 5px grey;
+#notes {
+  text-align: justify;
+}
+
+ul,
+ol,
+#notes {
+  margin-left: 3vw;
+  margin-right: 3vw;
 }
 
 .INSTRUCTIONS ol,
 #notes {
   list-style-type: square;
   font-family: "Arya";
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .video {
@@ -73,24 +100,47 @@ hr {
   background-color: darkgray;
 }
 
-.INGREDIENTS-02 img {
-  width: 250px;
-  height: 250px;
+.INGREDIENTS-01 img {
+  width: 20vw;
+  height: 47vh;
   float: inline-end;
-  margin-right: 250px;
-  margin-top: 175px;
-  border: 5px solid gray;
-  border-radius: 360px;
-  box-shadow: 2px 2px 5px grey;
+  position: relative;
+  right: 8rem;
+  top: 4rem;
+  border: 5px solid #40a578;
+  border-radius: 50%;
+  box-shadow: 3px 6px 5px #006769;
+}
+
+.INGREDIENTS-02 img {
+  width: 20vw;
+  height: 47vh;
+  float: inline-end;
+  position: relative;
+  right: 8rem;
+  top: 4rem;
+  border: 5px solid #40a578;
+  border-radius: 50%;
+  box-shadow: 3px 6px 5px #006769;
 }
 
 .INGREDIENTS-03 img {
-  width: 250px;
-  height: 250px;
+  width: 20vw;
+  height: 47vh;
   float: inline-end;
-  margin-right: 110px;
-  margin-top: 50px;
-  border: 5px solid gray;
-  border-radius: 360px;
-  box-shadow: 2px 2px 5px grey;
+  position: relative;
+  right: 1rem;
+  bottom: 6rem;
+  border: 5px solid #40a578;
+  border-radius: 50%;
+  box-shadow: 3px 6px 5px #006769;
+}
+
+.video iframe {
+  border: 1px #006769;
+  border-style: double;
+}
+
+.video {
+  color: #006769;
 }

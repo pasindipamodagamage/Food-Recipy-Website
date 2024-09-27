@@ -1,0 +1,54 @@
+header {
+  margin: 0;
+}
+
+#list ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin: 0;
+
+  list-style: none;
+  font-weight: 900;
+  font-size: larger;
+  text-decoration: none;
+
+  position: relative;
+  bottom: 78px;
+  right: 50px;
+}
+
+#image img {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+}
+
+#social-media #about {
+  font-family: "Playwrite CU";
+  color: #def9c4;
+
+  position: absolute;
+  top: 14px;
+  right: 25px;
+  font-size: 12px;
+}
+
+#social-media ul {
+  background-color: #1a2130;
+  list-style: none;
+  display: flex;
+  color: #def9c4;
+}
+
+#social-media ul li {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+#social-media {
+  margin: 0;
+}
