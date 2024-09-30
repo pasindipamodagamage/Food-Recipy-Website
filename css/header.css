@@ -52,3 +52,9 @@ header {
 #social-media {
   margin: 0;
 }
+
+#list nav a {
+  list-style: none;
+  color: #1a2130;
+  text-decoration: none;
+}

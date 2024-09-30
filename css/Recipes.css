@@ -1,0 +1,33 @@
+#body-content #box {
+  width: 300px;
+  height: 370px;
+  background-color: #f6f193;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 5px #e8751a;
+}
+
+#box img {
+  width: 240px;
+  height: 250px;
+  padding: 30px;
+  border-radius: 50px;
+}
+
+#box #name {
+  text-align: center;
+  background-color: #561c24;
+  color: #a5dd9b;
+  text-decoration: none;
+}
+
+#container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#container a #name {
+  text-decoration: none;
+  color: #a5dd9b;
+}
