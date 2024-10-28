@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  /* background-image: url(/assets/images/wallpaper-background.jpeg); */
+}
+
+#home-content {
+  background-image: url(/assets/images/food-plate.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  height: 80vh;
+  width: 100%;
+  position: relative;
+  top: 35px;
+
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+}
+
+main {
+  position: relative;
+  top: 200px;
+}
+
+#fruit-img {
+  width: 320px;
+  height: 250px;
+  position: absolute;
+  top: 150px;
+  left: 20px;
+}
+
+#home-content {
+  display: flex;
+  justify-content: left;
+  justify-content: space-around;
+  /* align-items: center; */
+  flex-direction: column;
+  text-align: center;
+  color: #1a2130;
+}
+
+main h1 {
+  color: #740938;
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin: 0 50px 0 50px;
+}
+
+main p {
+  font-size: 1.2rem;
+  color: #0b192c;
+  font-weight: 600;
+  margin: 20px 50px 0 50px;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+}
+
+button {
+  background-color: #740938;
+  color: white;
+  /* margin: 20px 50px 0 50px; */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  position: relative;
+  bottom: 100px;
+  left: 100px;
+}
+
+button:hover {
+  background-color: #1a2130;
+  cursor: pointer;
+  transition: 0.5s;
+  padding: 20px 30px;
+  font-size: 1.3rem;
+  font-weight: 800;
+  position: relative;
+  bottom: 100px;
+  left: 100px;
+  color: wheat;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
