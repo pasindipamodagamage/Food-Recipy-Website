@@ -1,12 +1,70 @@
-#main-chef-photo {
-  border-radius: 70%;
-  height: 300px;
-  width: 200px;
+/* General body styling */
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #fffdf5; /* A soft off-white background */
+  color: #333; /* Neutral dark text color for readability */
 }
 
-#content-box {
-  background-color: black;
-  width: 50%;
-  height: 50%;
-  border: 2px solid black;
+/* Main content section */
+main {
+  font-family: Arial, sans-serif; /* A clear, readable font */
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-section {
+  max-width: 700px; /* Slightly narrower for improved focus */
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fffbec; /* Light yellow for subtle contrast */
+  border: 1px solid #ffe0a3; /* Soft border for definition */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.about-section h1 {
+  font-size: 2rem; /* Adjusted for clarity */
+  font-family: "Kaushan Script", cursive;
+  color: #ff9d3d; /* Vibrant orange for emphasis */
+  margin-bottom: 1rem;
+}
+
+.about-section p {
+  font-size: 1rem; /* Reduced size for better text alignment */
+  font-family: Arial, sans-serif;
+  margin: 0.8rem 0;
+  color: #444; /* Softer contrast for text */
+}
+
+.about-section img {
+  margin-top: 1.5rem;
+  max-width: 50%; /* Smaller image size for better balance */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Section spacing for responsive design */
+@media (max-width: 768px) {
+  .about-section {
+    padding: 1.5rem;
+  }
+
+  .about-section h1 {
+    font-size: 1.8rem;
+  }
+
+  .about-section p {
+    font-size: 0.9rem;
+  }
+
+  .about-section img {
+    max-width: 70%; /* Adjust image size for smaller screens */
+  }
 }
