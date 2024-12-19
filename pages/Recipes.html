@@ -3,33 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gourmet Guidebook</title>
-    <link rel="icon" href="/assets/icons/new web logo.png" />
+    <title>| Gourmet Guidebook |</title>
+    <link rel="icon" href="/assets/images/henderson (2) (1).png" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Splash&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Splash&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Playwrite+CU:wght@100..400&family=Splash&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="stylesheet" href="/css//header.css" />
+    <link rel="stylesheet" href="/css/header.css" />
     <link rel="stylesheet" href="/css/footer.css" />
     <link rel="stylesheet" href="/css/Recipes.css" />
   </head>
   <body>
+    <!-- Header Section -->
     <header>
       <section>
         <div id="social-media">
@@ -38,135 +26,128 @@
               <li>
                 <img
                   src="/assets/icons/icons8-facebook-25.png"
-                  style="margin-right: 5px; margin-right: 5px"
+                  style="margin-right: 5px"
+                  alt="Facebook Icon"
                 />
               </li>
-              <li style="margin-top: 4px">FACEBOOK</li>
-              <li style="margin-top: 2px">|</li>
+              <li style="margin-top: 8px">FACEBOOK</li>
+              <li style="margin: 2px 8px">|</li>
               <li>
                 <img
                   src="/assets/icons/icons8-instagram-25.png"
-                  style="margin-right: 5px; margin-right: 5px"
+                  style="margin-right: 5px"
+                  alt="Instagram Icon"
                 />
               </li>
-              <li style="margin-top: 4px">INSTAGRAM</li>
+              <li style="margin-top: 8px">INSTAGRAM</li>
             </ul>
           </nav>
-          <div id="about">discover, cook and savor!</div>
+          <div id="about">Discover, cook and savor!</div>
         </div>
 
-        <div id="list">
+        <div class="header-list">
           <div id="image">
-            <img src="/assets/icons/pure icon.png" alt="logo" />
+            <img src="/assets/images/henderson (1).png" alt="logo" />
           </div>
-          <nav>
-            <ul>
-              <a href="/index.html"><li>Home</li></a>
-              <a href="/pages//Recipes.html"><li>Recipe</li></a>
-              <a href="/pages/About.html"><li>About Us</li></a>
-              <a href="/pages/Contact.html"><li>Contact</li></a>
-            </ul>
-          </nav>
+          <div id="list">
+            <nav>
+              <ul>
+                <a href="/index.html"><li>Home</li></a>
+                <a href="/pages/Recipes.html"><li>Recipe</li></a>
+                <a href="/pages/About.html"><li>About Us</li></a>
+                <a href="/pages/Contact.html"><li>Contact</li></a>
+              </ul>
+            </nav>
+          </div>
         </div>
       </section>
     </header>
 
-    <section id="body-content">
-      <div id="container">
-        <a href="/pages/Baked-Penne.html">
-          <div id="box">
-            <img src="/assets/images/Baked Penne with Meatballs2.jpeg" />
-            <div id="name">No-Boil Baked Penne with Meatballs</div>
-          </div>
-        </a>
+    <!-- Recipe Cards Section -->
+    <section>
+      <div class="card-container">
+        <!-- Card 1 -->
+        <div class="card">
+          <img
+            src="/assets/images/Baked Penne with Meatballs2.jpeg"
+            alt="No-Boil Baked Penne with Meatballs"
+          />
+          <a href="/pages/Baked-Penne.html">No-Boil Baked Penne</a>
+          <p class="rating">Rating: ⭐⭐⭐⭐⭐</p>
+        </div>
 
-        <a href="/pages/Cashew-Coffee.html">
-          <div id="box">
-            <img src="/assets/images/Cashew-Coffee-1.0.jpg" />
-            <div id="name">Unbelievably Good Cashew Coffee</div>
-          </div>
-        </a>
+        <!-- Card 2 -->
+        <div class="card">
+          <img src="/assets/images/Cashew-Lattee-1.2.jpg" alt="Cashew Coffee" />
+          <a href="/pages/Cashew-Coffee.html">Cashew Coffee</a>
+          <p class="rating">Rating: ⭐⭐⭐⭐</p>
+        </div>
 
-        <a href="/pages/Cheese-Soup.html">
-          <div id="box">
-            <img src="/assets/images/Broccoli-Cheese-Soup-2.jpeg" />
-            <div id="name">Basic + Awesome Broccoli Cheese Soup</div>
-          </div>
-        </a>
+        <!-- Card 3 -->
+        <div class="card">
+          <img
+            src="/assets/images/Broccoli-Cheese-Soup-2.jpeg"
+            alt="Broccoli Cheese Soup"
+          />
+          <a href="/pages/Cheese-Soup.html">Broccoli Cheese Soup</a>
+          <p class="rating">Rating: ⭐⭐⭐⭐⭐</p>
+        </div>
 
-        <a href="/pages/Chicken-Salad.html">
-          <div id="box">
-            <img src="/assets/images/Chicken-Salad-1.2.jpeg" />
-            <div id="name">
-              Rainbow Chicken Salad with Almond Honey Mustard Dressing
-            </div>
-          </div>
-        </a>
+        <!-- Card 4 -->
+        <div class="card">
+          <img
+            src="/assets/images/Chicken-Salad-1.1.jpeg"
+            alt="Chicken-Salad"
+          />
+          <a href="/pages/Chicken-Salad.html">Chicken Salad</a>
+          <p class="rating">Rating: ⭐⭐⭐⭐</p>
+        </div>
 
-        <a href="/pages/Chocolate-Cookies.html">
-          <div id="box">
-            <img src="/assets/images/Chocolate-Cookies-2.jpg" />
-            <div id="name">The Very Best Chocolate Cookies</div>
-          </div>
-        </a>
+        <!-- Card 5 -->
+        <div class="card">
+          <img
+            src="/assets/images/Chocolate-Cookies-1.jpg"
+            alt="Chocolate-Cookies"
+          />
+          <a href="/pages/Chocolate-Cookies.html">Chocolate Cookies</a>
+          <p class="rating">Rating: ⭐⭐⭐⭐⭐</p>
+        </div>
 
-        <a href="/pages/Latte.html">
-          <div id="box">
-            <img src="/assets/images/Blueberry Matcha Latte-1.2.jpg" />
-            <div id="name">Blueberry Matcha Latte</div>
-          </div>
-        </a>
+        <!-- Card 6 -->
+        <div class="card">
+          <img
+            src="/assets/images/Blueberry Matcha Latte-1.1.jpg"
+            alt="Latte"
+          />
+          <a href="/pages/Latte.html">Blueberry Matcha Latte</a>
+          <p class="rating">Rating: ⭐⭐⭐⭐</p>
+        </div>
 
-        <a href="/pages/Mocktail.html">
-          <div id="box">
-            <img src="/assets/images/Merry-Mocktail-1.jpg" />
-            <div id="name">Rosemary Pom Spritzer AKA The Merry Mocktail</div>
-          </div>
-        </a>
+        <!-- Card 7 -->
+        <div class="card">
+          <img src="/assets/images/Merry-Mocktail-2.jpg" alt="mocktail" />
+          <a href="/pages/Mocktail.html"
+            >Rosemary Pom Spritzer AKA The Merry Mocktail</a
+          >
+          <p class="rating">Rating: ⭐⭐⭐⭐⭐</p>
+        </div>
       </div>
     </section>
 
+    <!-- Footer Section -->
     <footer>
-      <section>
+      <section id="footer-section">
         <div style="color: #9cdba6; text-align: center; font-size: 1.2rem">
           <div style="font-family: Kaushan Script, cursive">
             OUR RECIPES YOUR INBOX
           </div>
           <div style="font-family: Splash">Thank you !!!</div>
         </div>
-      </section>
-
-      <section>
-        <div id="static-prase" style="font-size: 0.9rem">
+        <div id="static-prase" style="font-size: 0.8rem">
           <span
-            >Copyright © 2024 - <strong><i>Gourmet Guidebook</i></strong></span
+            >Copyright © 2024 - All Rights Reserved |
+            <i>developed by❤️ Pasindi Pamoda Gamage</i></span
           >
-          <br />
-          All Rights Reserved
-        </div>
-
-        <div id="develpoer">
-          Developed by: N.G.P.Pamoda
-
-          <div id="develpoer-contact-details">
-            <p>Contact Me on:</p>
-
-            <img
-              src="/assets/icons/icons8-whatsapp-25 (1).png"
-              style="width: 15px; height: 15px"
-              alt="whatsapp"
-            />
-            <img
-              src="/assets/icons/icons8-phone-25.png"
-              style="width: 15px; height: 15px"
-              alt="phone"
-            />
-            <img
-              src="/assets/icons/icons8-email-25.png"
-              style="width: 15px; height: 15px"
-              alt="email"
-            />
-          </div>
         </div>
       </section>
     </footer>

@@ -27,7 +27,7 @@ main {
   width: 320px;
   height: 250px;
   position: absolute;
-  top: 150px;
+  top: 190px;
   left: 20px;
 }
 
@@ -72,19 +72,20 @@ button {
 }
 
 button:hover {
-  background-color: #1a2130;
+  background-color: rgb(29, 146, 29);
   cursor: pointer;
   transition: 0.5s;
-  padding: 20px 30px;
+  padding: 12px 22px;
   font-size: 1.3rem;
   font-weight: 800;
   position: relative;
-  bottom: 100px;
-  left: 100px;
+  bottom: 104px;
+  left: 96px;
   color: wheat;
 }
 
-a {
+button a {
   text-decoration: none;
   color: white;
+  font-weight: 900;
 }

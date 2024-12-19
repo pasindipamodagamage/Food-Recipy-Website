@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gourmet Guidebook</title>
-    <link rel="icon" href="/assets/icons/new web logo.png" />
+    <link rel="icon" href="/assets/images/henderson (2) (1).png" />
 
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,10 +26,19 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="/css//header.css" />
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/css/header.css" />
     <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/contact.css" />
+
+    <!-- Icons -->
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
+    <!-- Header Section -->
     <header>
       <section>
         <div id="social-media">
@@ -40,77 +50,118 @@
                   style="margin-right: 5px; margin-right: 5px"
                 />
               </li>
-              <li style="margin-top: 4px">FACEBOOK</li>
-              <li style="margin-top: 2px">|</li>
+              <li style="margin-top: 8px">FACEBOOK</li>
+              <li style="margin: 2px 8px">|<br />|</li>
               <li>
                 <img
                   src="/assets/icons/icons8-instagram-25.png"
                   style="margin-right: 5px; margin-right: 5px"
                 />
               </li>
-              <li style="margin-top: 4px">INSTAGRAM</li>
+              <li style="margin-top: 8px">INSTAGRAM</li>
             </ul>
           </nav>
           <div id="about">discover, cook and savor!</div>
         </div>
 
-        <div id="list">
+        <div class="header-list">
           <div id="image">
-            <img src="/assets/icons/pure icon.png" alt="logo" />
+            <img src="/assets/images/henderson (1).png" alt="logo" />
           </div>
-          <nav>
-            <ul>
-              <a href="/index.html"><li>Home</li></a>
-              <a href="/pages//Recipes.html"><li>Recipe</li></a>
-              <a href="/pages/About.html"><li>About Us</li></a>
-              <a href="/pages/Contact.html"><li>Contact</li></a>
-            </ul>
-          </nav>
+
+          <div id="list">
+            <nav>
+              <ul>
+                <a href="/index.html"><li>Home</li></a>
+                <a href="/pages/Recipes.html"><li>Recipe</li></a>
+                <a href="/pages/About.html"><li>About Us</li></a>
+                <a href="/pages/Contact.html"><li>Contact</li></a>
+              </ul>
+            </nav>
+          </div>
         </div>
       </section>
     </header>
 
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h1 class="sub-title">Get in Touch</h1>
+        <p>
+          Have questions, feedback, or want to share a recipe? We’d love to hear
+          from you!
+        </p>
+        <div class="row">
+          <!-- Contact Information -->
+          <div class="contact-left">
+            <p>
+              <i class="fas fa-envelope"></i> Email: gourmetguidebook@gmail.com
+            </p>
+            <p>
+              <i class="fas fa-phone-alt"></i> Call Us: +94 77 379 3891 / +94 91
+              225 7892
+            </p>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> Address: Gourmet Plazaa,
+              North Side, Colombo - 05, Sri Lanka
+            </p>
+            <div class="social-icons">
+              <a href="https://www.instagram.com/indy_ga_/" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                href="https://web.facebook.com/profile.php?id=100093022750528"
+                target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <input
+                type="text"
+                name="Subject"
+                placeholder="Subject"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+                required
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
     <footer>
-      <section>
+      <section id="footer-section">
         <div style="color: #9cdba6; text-align: center; font-size: 1.2rem">
           <div style="font-family: Kaushan Script, cursive">
             OUR RECIPES YOUR INBOX
           </div>
           <div style="font-family: Splash">Thank you !!!</div>
         </div>
-      </section>
 
-      <section>
-        <div id="static-prase" style="font-size: 0.9rem">
+        <div id="static-prase" style="font-size: 0.8rem">
           <span
-            >Copyright © 2024 - <strong><i>Gourmet Guidebook</i></strong></span
+            >Copyright © 2024 - All Rights Reserved |
+            <i>developed by❤️ Pasindi Pamoda Gamage</i></span
           >
-          <br />
-          All Rights Reserved
-        </div>
-
-        <div id="develpoer">
-          Developed by: N.G.P.Pamoda
-
-          <div id="develpoer-contact-details">
-            <p>Contact Me on:</p>
-
-            <img
-              src="/assets/icons/icons8-whatsapp-25 (1).png"
-              style="width: 15px; height: 15px"
-              alt="whatsapp"
-            />
-            <img
-              src="/assets/icons/icons8-phone-25.png"
-              style="width: 15px; height: 15px"
-              alt="phone"
-            />
-            <img
-              src="/assets/icons/icons8-email-25.png"
-              style="width: 15px; height: 15px"
-              alt="email"
-            />
-          </div>
         </div>
       </section>
     </footer>

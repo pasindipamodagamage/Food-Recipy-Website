@@ -1,33 +1,58 @@
-#body-content #box {
-  width: 300px;
-  height: 370px;
-  background-color: #f6f193;
-  margin: 10px;
-  border-radius: 20px;
-  box-shadow: 4px 4px 5px #e8751a;
+/* General Styling */
+body {
+  margin: 0;
+  background-color: #fff8e1;
+  background-image: url(/assets/images/food-plate.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  height: 100vh;
+  font-family: "Kaushan Script", cursive;
 }
 
-#box img {
-  width: 240px;
-  height: 250px;
-  padding: 30px;
-  border-radius: 50px;
+/* Card Container */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin: 20px;
 }
 
-#box #name {
+/* Card Styling */
+.card {
+  background: linear-gradient(to top, #ffe4b5, #ffbd73);
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
-  background-color: #561c24;
-  color: #a5dd9b;
-  text-decoration: none;
+  padding: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
-#container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
-#container a #name {
+/* Card Image */
+.card img {
+  width: 80%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Link */
+.card a {
   text-decoration: none;
-  color: #a5dd9b;
+  color: #1a2130;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Rating */
+.rating {
+  color: #ff6f61;
+  margin-top: 10px;
+  font-size: 1rem;
 }

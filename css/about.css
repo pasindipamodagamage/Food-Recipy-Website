@@ -1,29 +1,12 @@
-#main {
-  /* margin: 0; */
-  /* width: 1240px; */
-  /* height: 350px; */
-  background-color: burlywood;
-  box-shadow: 2px 2px 4px brown;
-  border: 1px solid brown;
-  border-radius: 20px;
-  text-align: justify;
-  color: white;
+#main-chef-photo {
+  border-radius: 70%;
+  height: 300px;
+  width: 200px;
 }
 
-h1 {
-  font-family: Delius;
-  text-align: center;
-  text-shadow: 3px 3px 3px gray;
-}
-
-#margin-text-content {
-  margin: 20px;
-  font-family: Tenali Ramakrishna;
-  font-size: large;
-}
-
-body {
-  background-image: url(/assets/images/Free\ Photo\ Delicious\ and\ healthy\ asian\ food\ on\ a\ black\ textured\ background\ with\ copy\ space.jpeg);
-  background-repeat: no-repeat;
-  background-size: contain;
+#content-box {
+  background-color: black;
+  width: 50%;
+  height: 50%;
+  border: 2px solid black;
 }

@@ -1,6 +1,6 @@
 header {
   margin: 0;
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
   z-index: 1;
@@ -51,7 +51,7 @@ header {
   color: #def9c4;
 
   position: absolute;
-  top: 14px;
+  top: 2px;
   right: 80px;
   font-size: 12px;
 }
@@ -76,15 +76,30 @@ header {
   list-style: none;
   color: #1a2130;
   text-decoration: none;
+  position: relative;
 }
 
 #list nav a:hover {
   color: #740938;
   text-decoration: none;
   border-bottom: 1px solid #740938;
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   transition: 0.8s;
-  font-weight: 1000;
+}
+
+#list nav ul a li::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: #740938;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+
+#list nav ul a li::after:hover {
+  width: 100%;
 }
 
 #list {

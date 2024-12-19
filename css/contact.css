@@ -1,0 +1,109 @@
+/* General Styling */
+body {
+  font-family: "Playwright CU", sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background: #fff8e1; */
+}
+
+/* Contact Section */
+#contact {
+  background: #fff;
+  padding: 40px 10%;
+  color: #333;
+}
+
+#contact .sub-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #740938;
+  font-family: "Kaushan Script", cursive;
+}
+
+#contact p {
+  text-align: center;
+  margin: 10px auto;
+  color: #555;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  /* font-size: 1.2rem;
+  font-family: "Playwright CU", sans-serif;
+  font-weight: 600; */
+}
+
+.contact-left {
+  flex-basis: 40%;
+  padding: 20px;
+  font-style: italic;
+  color: #444;
+  font-size: 1.2rem;
+  font-family: "Playwright CU", sans-serif;
+  font-weight: 600;
+}
+
+.contact-left p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.contact-left p i {
+  color: #ff9d3d;
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+.social-icons a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-right: 15px;
+  color: #ababab;
+  transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ff9d3d;
+  transform: translateY(-5px);
+}
+
+.contact-right {
+  flex-basis: 55%;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  margin: 15px 0;
+  /* padding: 15px; */
+  border-radius: 6px;
+  border: none;
+  background: #f2f2f2;
+  /* color: #000; */
+
+  padding: 20px;
+  font-size: 1.2rem;
+  font-family: "Playwright CU", sans-serif;
+  font-weight: 600;
+  color: #000;
+  /* background-color: azure; */
+}
+
+form input:focus,
+form textarea:focus {
+  border: 2px solid #ff9d3d;
+}
+
+.btn.btn2 {
+  display: inline-block;
+  background: #740938;
+  padding: 14px 60px;
+  color: #fff;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-size: 1.2rem;
+}
+
+.btn.btn2:hover {
+  background: rgb(29, 146, 29);
+}
